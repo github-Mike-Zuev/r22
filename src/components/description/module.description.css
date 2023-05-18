@@ -1,0 +1,51 @@
+/** КОГДА ДЕЛАЛ АНИМАЦИИ- ЗАБЫЛ ВЕРНУТЬ МАСШТАБ 1:1, И СДЕЛАЛ В 50% ОКНЕ */
+.description{
+    
+    background: linear-gradient(-10deg, orangered, goldenrod);
+    /* padding: 0% 10%; */
+    padding: 5% 10%; 
+    /** padding-top(bottom)   **/
+    /* padding-top: 500px; */
+    /* padding-bottom: 500px; */
+
+}
+.description h1{
+    text-align: center;
+    margin-bottom: 5%;
+    text-decoration:underline;
+}
+.description h2{
+    text-indent: 10%;
+    margin: 5%;
+}
+p{
+    font-size: 34px;
+}
+
+
+
+h2{
+    font-size:  30px;
+    color: rgb(127, 14, 57);
+    font-weight: 800;
+}
+.details{ /*div ul li details */
+    display:grid;
+ 
+    height: 600px;
+    align-content:end;
+    /* align-self: end; */
+    /* align-items: end; */
+    color: brown;
+    /* padding: 250px 15px 0px 15px; */
+     font-size: 22px;
+      margin-top: 15px;
+
+}
+.details li{
+    color: green;;
+}
+.pererences{
+    color: blue;
+    font-size: 22px;
+}

@@ -1,0 +1,18 @@
+.btnSwith{
+  z-index: 2;
+  /* border: solid 10px blue; */
+  /* border: dotted 6px yellowgreen; */
+  border: double 9px yellowgreen;
+  /* border: dashed 9px yellowgreen; */
+
+}
+.btnSwith:hover{
+  cursor: pointer;
+  /* scale:5;
+   opacity:1;
+    color:"blue";
+     border:"none"; */
+}
+.btnSwith p{
+  font-size: large;
+}

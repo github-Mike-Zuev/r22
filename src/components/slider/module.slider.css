@@ -1,0 +1,33 @@
+.slide{
+    padding: 5px 0% 10px 0%;
+    background: linear-gradient(15deg, wheat,  lightblue);
+}
+
+.slide img{  
+    border-radius: 16vw 2vw 16vw 2vw; 
+    margin: auto;
+    transition:  9s;
+    height: 82vh;
+   }
+.slide:hover img{
+ 
+    /* border-radius: 16vw 2vw 16vw 2vw; */
+    width: 60vw !important;
+    filter: saturate(150%);
+    transition:  12s;
+     transform:  scale(1.9);
+}
+.btnForm1{
+    transition: all 15s;
+    z-index: 1;
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    transform:scale(3);
+}
+.slide:hover .btnForm1{
+    top: 60%;
+}
+.slide .btnForm1:hover{
+     transform:scale(6);
+}

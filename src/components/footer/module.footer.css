@@ -1,0 +1,30 @@
+.icon{
+    margin: auto;
+    width: 100px !important;
+    height: 50px;
+}
+.footer{
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* color:  */
+    background: linear-gradient(75deg,lightgreen,   aquamarine, aqua);
+    opacity: 0.4;
+}
+
+[class~=footer]:hover {
+    font-size: 30px; /*xx-large;*/
+    opacity: 1;
+}
+
+.logoBan {    
+    position: absolute;
+    /* font-size: smaller ; */
+    transition: all 5s ease-in-out;
+}
+
+.footer:hover .logoBan{
+    /* bottom: -500; */
+    /* left: -300; */
+}

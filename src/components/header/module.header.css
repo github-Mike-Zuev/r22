@@ -1,0 +1,43 @@
+.blankHeader{
+    height: 70px;
+}
+
+.header{
+    min-height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3; 
+}
+
+#headerTitle{
+    font-size: 36px ;
+}
+
+.me-auto a{
+    /* font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height); */
+    text-align: center;
+    /* max-width: 180px ; */
+    margin: auto;
+    padding: 3px 3px;
+    letter-spacing: 2px;
+    color: brown;
+    font: 800 16px/16px 'fantasy', "arial", "sans-serif";
+}
+.me-auto a:hover{
+    letter-spacing: -2px;
+    color: yellowgreen;
+    font-size: 22px;
+    border: 2px solid orange;
+    border-radius: 9px;
+
+}
+.me-auto a:hover div{
+    border: 3px dotted yellow;
+    border-radius: 9px;
+    /* margin: auto; */
+    padding: 3px;
+}
